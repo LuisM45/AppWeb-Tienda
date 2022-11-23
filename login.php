@@ -18,7 +18,7 @@ if(!$isStartable){
 
 // Start session
 session_start();
-$cookieParams = ["username","password","remember_me"];
+$cookieParams = ["username","password","remember_me","lang"];
 $sessionParams = ["username"];
 
 // Remove old cookies
